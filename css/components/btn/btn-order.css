@@ -1,0 +1,43 @@
+.btn-order {
+  height: 100%;
+  background-color: var(--red);
+  border-radius: 4px;
+  min-height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+.btn-order-text {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: var(--white);
+  font-weight: 500;
+  margin-right: 4px;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+.btn-order-svg {
+  -webkit-transition: stroke 0.3s ease-in-out;
+  -o-transition: stroke 0.3s ease-in-out;
+  transition: stroke 0.3s ease-in-out;
+}
+.btn-order:disabled {
+  background-color: var(--gray-normal);
+}
+.btn-order:disabled .btn-order-text {
+  color: var(--gray);
+}
+.btn-order:disabled .btn-order-svg path {
+  stroke: var(--gray);
+}
+/*# sourceMappingURL=btn-order.css.map */

@@ -1,0 +1,26 @@
+.btn-clear {
+  width: 12px;
+  height: 12px;
+  position: relative;
+}
+.btn-clear::before, .btn-clear::after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 1px;
+  border-radius: 2px;
+  background-color: var(--text-color);
+  top: calc(50% - 0.1rem);
+  left: calc(50% - 0.6rem);
+}
+.btn-clear::before {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.btn-clear::after {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+/*# sourceMappingURL=btn-clear.css.map */

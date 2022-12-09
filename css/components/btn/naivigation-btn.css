@@ -1,0 +1,48 @@
+.navigation-btn {
+  position: absolute;
+  width: 28px;
+  height: 24px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.1215686275);
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.1215686275);
+  background-color: var(--white);
+  z-index: 1;
+  bottom: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+.navigation-btn::before {
+  content: "";
+  border-bottom: 1px solid var(--text-color);
+  border-right: 1px solid var(--text-color);
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: calc(50% - 2.5px);
+}
+.navigation-btn:disabled {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.btn-next {
+  right: 0;
+}
+.btn-next::before {
+  left: calc(50% - 4px);
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.btn-prev {
+  left: 0;
+}
+.btn-prev::before {
+  left: calc(50% - 1px);
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+/*# sourceMappingURL=naivigation-btn.css.map */
