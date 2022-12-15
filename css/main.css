@@ -56,7 +56,6 @@
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  background-color: aquamarine;
   font-size: 8px;
 }
 
@@ -432,7 +431,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .filtred__top {
   padding-bottom: 4px;
-  padding-top: 60px;
+  padding-top: 8px;
 }
 .filtred__top-content {
   display: -webkit-box;
@@ -483,6 +482,7 @@ h1, h2, h3, h4, h5, h6, p {
 .filtred__bottom-swiper::-webkit-scrollbar {
   width: 0;
   height: 0;
+  display: none;
 }
 .filtred__bottom-slide {
   position: relative;
@@ -497,6 +497,7 @@ h1, h2, h3, h4, h5, h6, p {
   height: 24px;
   width: auto;
   padding: 0 12px;
+  cursor: pointer;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
