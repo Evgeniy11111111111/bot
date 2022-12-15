@@ -7,23 +7,9 @@
 .catalog__box {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-  grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (1fr)[2];
+  grid-template-columns: repeat(2, 1fr);
   gap: 8px;
-}
-.catalog__scrollbar {
-  max-height: 398px;
-}
-.catalog__scrollbar .simplebar-track {
-  right: -16px;
-  background-color: var(--gray-scrollbar);
-  border-radius: 24px;
-}
-.catalog__scrollbar .simplebar-track.simplebar-vertical {
-  width: 4px;
-}
-.catalog__scrollbar .simplebar-scrollbar {
-  background-color: var(--gray-very-dark);
-  border-radius: 24px;
+  padding-bottom: 60px;
 }
 /*# sourceMappingURL=catalog.css.map */

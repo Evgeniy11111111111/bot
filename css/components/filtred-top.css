@@ -1,16 +1,16 @@
-.header__center {
+.filtred__top {
   padding-bottom: 4px;
   padding-top: 60px;
 }
-.header__center-content {
+.filtred__top-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.header__center-form {
+.filtred__top-form {
   margin-right: 4px;
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
 }
-/*# sourceMappingURL=header-center.css.map */
+/*# sourceMappingURL=filtred-top.css.map */

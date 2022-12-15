@@ -4,6 +4,12 @@
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   padding: 8px 0;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  bottom: 0%;
+  left: 0;
+  background-color: var(--bg-color);
 }
 .footer__content {
   display: -webkit-box;
